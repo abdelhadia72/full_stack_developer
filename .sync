@@ -1,0 +1,15 @@
+#!/bin/bash
+
+while true; do
+    gstatus=$(git status --porcelain)
+
+    if [ ${#gstatus} -ne 0 ]; then
+        commit_time=$(date '+%Y-%m-%d at %H:%M')
+        git add --all
+        git commit -m "⌚$commit_time"
+        git pull
+        git push
+    fi
+
+    sleep 60 
+done &

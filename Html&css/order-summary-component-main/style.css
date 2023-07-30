@@ -1,0 +1,139 @@
+body
+{
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	background-image: url('/images/pattern-background-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@media only screen and (max-width: 500px) {
+	.card
+	{
+		max-width: 300px;
+		background-color: white;
+	}
+
+}
+
+
+@media only screen and (max-width: 900px) {
+	body
+	{
+		background-image: url('/images/pattern-background-mobile.svg');
+		background-size: contain;
+		position: relative;
+		top: 50%;
+	}
+}
+
+.card
+{
+	max-width: 400px;
+	background-color: white;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.image
+{
+	width: 100%;
+}
+
+.image > img
+{
+
+	background-position: fixed;
+}
+
+.contant
+{
+	padding: 15px 30px;
+}
+
+h1{
+	color : hsl(223, 47%, 23%);
+}
+
+p{
+	color:hsla(223, 47%, 23%, 0.615);
+}
+
+.plan
+{
+	display: flex;
+	gap:15px;
+	place-items: center;
+	justify-content: space-between;
+	padding: 25px 0px;
+}
+
+.left
+{
+	display: flex;
+	gap:10px;
+}
+
+.text
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.text .title
+{
+	font-weight: bold;
+	color: rgba(50, 50, 93, 0.25);
+}
+
+.text .price
+{
+	font-weight: normal;
+	color:hsl(223, 47%, 23%);
+}
+
+
+.order
+{
+	display: block;
+	margin: auto;
+	border: 0;
+	outline: none;
+	font-size: 19px;
+	border-radius: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	padding: 8px 15px;
+	width: 90%;
+	background-color: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 94%);
+	margin-bottom: 20px;
+	cursor: pointer;
+	position: relative;
+	transition: position 2s linear 1s;
+
+}
+
+button{
+	transition: position 2s linear 1s;
+}
+
+.order:hover
+{
+	background-color: hsl(245, 75%, 52%);
+	top:-7px;
+}
+
+.link
+{
+	padding: 5px 0 ;
+	text-underline-offset: none;
+	text-decoration: none;
+	color:rgba(110, 110, 179, 0.697);
+	font-weight: 700;
+}
