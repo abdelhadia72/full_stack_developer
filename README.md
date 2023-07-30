@@ -1,17 +1,17 @@
-# full_stack_developer
-this for learning full stack developer
+💻 Technologies:
 
-## Technologies Used
-The following technologies were used in the development of this web app:
+Started day : 30 Jul 2023
+
+- 🧶 HTML
+- 🎨 CSS
+- 🔧 SCSS
+- 🚀 JavaScript
+- 💙 TypeScript
+- 🎨 Tailwind CSS
 - ⚛️ React
+- 🔄 Redux
 - ⏭️ Next.js
+- 🌟 Framer Motion
+- 🍃 MongoDB
 - 📦 Node.js
 - 🌐 Express
-- 🍃 MongoDB
-- 🔄 Redux
-- ⚙️ C
-- 🐚 Bash
-- 🔧 SCSS
-- 🎨 Tailwind CSS
-- 🚀 JavaScript
-- 🌟 Framer Motion
